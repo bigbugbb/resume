@@ -1,0 +1,26 @@
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  .content {
+    width: 90%;
+  }
+
+  .resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+
+    .resume-pic {
+      width: 65%;
+      margin-bottom: 8px;
+    }
+    .resume-downloads {
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
