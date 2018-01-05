@@ -1,13 +1,15 @@
 <div class="container-fluid">
   <div class="row main clearfix">
-    <a href="#" class="js-floating-nav-trigger floating-nav-trigger"
+    <a href="#" class="js-floating-nav-trigger floating-nav-trigger mb-3 mr-3"
       [ngClass]="{ 'is-open': isMenuOpened }"
       (click)="showMenu($event)"
     >
       <i class="icon-bars"></i>
       <span class="close-icon">&times;</span>
     </a>
-    <nav class="floating-nav js-floating-nav" [ngClass]="{ 'is-visible': isMenuOpened }">
+    <nav class="floating-nav js-floating-nav mb-3 mr-3"
+      [ngClass]="{ 'is-visible': isMenuOpened }"
+    >
       <ul class="list-unstyled">
         <li>
           <a href="#about">
