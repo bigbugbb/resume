@@ -61,6 +61,87 @@
         </div>
       </div>
     </div>
+    <div id="award" class="detail">
+      <div class="icon">
+        <i class="fs-lg icon-thumbs-up"></i>
+        <span class="mobile-title">Honors & Award</span>
+      </div>
+      <div class="info">
+        <h4 class="title text-uppercase">Honors & Award</h4>
+        <div class="content">
+          <ul class="list-unstyled">
+            <li class="card card-nested">
+              <div class="content">
+                <p class="clear-margin relative">
+                  <i rel="tooltip" title="Currently Pursuing" data-placement="left"></i>
+                  <strong>Patent: </strong>A method to better synchronize audio and video playing.</p>
+                <p class="text-muted">
+                  <small>Patent #: CN103686315A</small>
+                </p>
+                <i></i>
+              </div>
+            </li>
+            <li class="card card-nested">
+              <div class="content">
+                <p class="clear-margin relative">
+                  <i rel="tooltip" title="Currently Pursuing" data-placement="left"></i>
+                  Author of mobile game: Escape Rocket</p>
+                <p class="text-muted">
+                  <small>Registration #: 2015SR066570</small>
+                </p>
+                <i></i>
+              </div>
+            </li>
+            <li class="card card-nested">
+              <div class="content">
+                <p class="clear-margin relative">
+                  <i rel="tooltip" title="Currently Pursuing" data-placement="left"></i>
+                  Published <a href="https://play.google.com/store/apps/details?id=com.itracker.android&hl=en" target="_blank">iTracker</a> on play store</p>
+                <i></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="research-experience" class="detail">
+      <div class="icon">
+        <i class="fs-lg icon-book"></i>
+        <span class="mobile-title">Research Experience</span>
+      </div>
+      <div class="info">
+        <h4 class="title text-uppercase">Research Experience</h4>
+        <ul class="list-unstyled">
+          <li class="card card-nested clearfix">
+            <div class="content">
+              <p class="clear-margin relative">
+                <i rel="tooltip" title="Currently Working" data-placement="left"></i>
+                <strong>Core Member & Android Software Developer</strong>,&nbsp;mHealth Research Team
+              </p>
+              <p class="text-muted">
+                <small>
+                  <span class="space-right">Sep, 2017 - Present</span>
+                  <span>
+                    <i class="icon-clock mr-5"></i>5 months</span>
+                </small>
+              </p>
+              <p></p>
+              <ul>
+                <li>Built a mobile app for teens activity research. This app collected and uploaded sensor data with service, visualized data in timeline
+                    chunks and each chunk could be marked with an activity name. All of the data were sent to our backend system and it would trigger
+                    the predefined surveys on the mobile devices with GCM push notification.</li>
+                <li>Improved an android library called WOCKETSLib to better collect and upload sensor data, rewrote its survey implementation, added
+                    cluster algorithms for location data.</li>
+                <li>Made a great use of deep learning to create and train our physical activity recognition model with data collecting from USCTeen app
+                    so later we could use this model to guess what the person was doing based on the same type of data attributes.</li>
+                <li>Published the essay of the physical activity research: <a href="https://www.frontiersin.org/books/b/333" target="_blank">Development of a smartphone application to measure
+                  physical activity using sensor-assisted self-report</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
     <div id="work-experience" class="detail">
       <div class="icon">
         <i class="fs-lg icon-office"></i>
@@ -108,16 +189,16 @@
               <p></p>
               <ul>
                 <li>Designed and implemented Localytics mobile SDK to collect data from integrated customers’ apps, added features to send in-app
-                    messages and push notifications to targets based on the results of dynamic big-data analysis using Hadoop cluster, Spark and Vertica.</li>
+                    messages and push notifications to targets based on dynamic results from big-data analysis via Hadoop cluster, Kafka, Spark and Vertica.</li>
                 <li>Implemented geo-based push notification for Localytics mobile SDK and Localytics dashboard app.</li>
-                <li>Cooperated with team members to design and improve company’s dashboard app with MEAN stack, which involved frontend,
-                    database schema and backend designs. Code to implement in-app message and push notification CRUD features for the web app.
+                <li>Cooperated with team members to design and improve company’s dashboard app in Angular. Implement both frontend and backend for this feature.
+                    Contributed code for the company's scala backend with akka actors.
                     Wrote tons of unit tests for the dashboard app.</li>
-                <li>Made the CI for SDK team using Jenkins, Artifactory and github webhooks.</li>
+                <li>Built CI for SDK team with Jenkins, Artifactory and github.</li>
                 <li>Wrote and improved Localytics SDK documents.</li>
-                <li>Wrote ruby and azkaban jobs to load big-data from S3 logs to AWS Redshift tables, designed the table schema and compute daily
+                <li>Wrote ruby and azkaban jobs to periodically trigger big-data loading from S3 logs to AWS Redshift tables, designed Redshift table schema and compute daily
                     assets-download cost from Localytics SDK.</li>
-                <li>Made Localytics push and in-app segmenters in Scala and created the Spark program to load the data from SDK via Kafka and Spark streaming and then compute the push and in-app campaigns targeted users.</li>
+                <li>Made Localytics push and in-app segmenters in Scala and created Spark program to extract the targeted users from the data updated by mobile SDK, and finally send push or in-app messages to them.</li>
               </ul>
             </div>
           </li>
@@ -247,6 +328,7 @@
               </p>
               <p></p>
               <ul>
+                <li>Created and record a <a href="http://edu.51cto.com/course/12671.html" target="_blank">kafka course</a> with detailed description and great practices on kafka basis.</li>
                 <li>Created and record a <a href="http://edu.51cto.com/course/11005.html" target="_blank">react native course</a> with a great amount of well-designed course materials, published on 51-CTO website for the
                     public to purchase and enjoy learning the leading-edge technology. It’s received plenty of positive comments since its publish.</li>
               </ul>
